@@ -11,8 +11,6 @@ The dataset provides a granular look at the customer journey, including:
 - **Behavioral Events**: Tracking the path from `session_start` → `view_item` → `add_to_cart` → `begin_checkout` → `purchase`.
 - **Product Intelligence**: Revenue performance and transaction volume across different marketing regions.
 
-By using this data, the dashboard can simulate how a "Senior Product Analyst" would investigate growth bottlenecks and conversion drop-offs.
-
 ## ✨ What's Inside?
 
 - **🤖 AI Data Intelligence**: A dedicated assistant powered by **Gemini 2.0 Flash**. It reads the live context of your filters and answers questions like *"Why did our conversion drop on mobile last week?"*
