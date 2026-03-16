@@ -1,0 +1,49 @@
+# ⚡ Product Analytics Hub
+
+This is a modern, high-fidelity analytics dashboard built to bridge the gap between static charts and automated AI insights. Instead of just looking at numbers, you can actually **talk** to this dashboard to understand why your metrics are moving.
+
+I built this using the **Google Merchandise Store** dataset to simulate a real-world e-commerce environment.
+
+## ✨ What's Inside?
+
+- **🤖 AI Data Intelligence**: A dedicated assistant powered by **Gemini 2.0 Flash**. It reads the live context of your filters and answers questions like *"Why did our conversion drop on mobile last week?"*
+- **🌙 Midnight SaaS UI**: A premium dark-theme interface designed with a modern "Midnight" aesthetic (inspired by top-tier tools like Stripe and Mixpanel).
+- **📈 Growth Analytics**: Segmented views for **Acquisition** (where users come from), **Behavior** (what they do), and **Revenue** (how much they spend).
+- **🔮 Predictive Forecasting**: Uses the **Prophet** engine to project user activity trends 30 days into the future.
+- **🎯 Smart Funnels**: A clear visualization of the checkout process to pinpoint exactly where users are dropping off.
+
+## 🛠️ Tech Stack
+
+- **Frontend**: Streamlit (with custom CSS injection)
+- **AI Engine**: Google Gemini API
+- **Forecasting**: Facebook Prophet
+- **Visuals**: Plotly (Interactive)
+- **Data**: Pandas / NumPy
+
+## 🚀 Getting Started
+
+1. **Clone the repo**
+   ```bash
+   git clone https://github.com/Daniswara369/mobile-product-analytics.git
+   cd mobile-product-analytics
+   ```
+
+2. **Install dependencies**
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+3. **Add your API Key**
+   Create a folder called `.streamlit` and a file inside it called `secrets.toml`:
+   ```toml
+   # .streamlit/secrets.toml
+   GEMINI_API_KEY = "your_google_ai_key_here"
+   ```
+
+4. **Launch the Dashboard**
+   ```bash
+   streamlit run app.py
+   ```
+
+---
+*Built with ❤️ for my Data Analytics Portfolio.*

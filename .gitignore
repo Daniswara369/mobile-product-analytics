@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.ipynb_checkpoints
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Environment
+.venv/
+venv/
+env/
+.env
+
+# Data (Optional: ignore data if it's too large for GitHub)
+# data/
+
+# OS
+.DS_Store
+Thumbs.db
