@@ -1,13 +1,23 @@
-# ⚡ Product Analytics Hub
+# ⚡ Product Analytics Dashboard
 
 This is a modern, high-fidelity analytics dashboard built to bridge the gap between static charts and automated AI insights. Instead of just looking at numbers, you can actually **talk** to this dashboard to understand why your metrics are moving.
 
 I built this using the **Google Merchandise Store** dataset to simulate a real-world e-commerce environment.
 
+## 📊 The Data
+
+This project analyzes real-world e-commerce data from the **Google Merchandise Store** (a live web store that sells Google-branded merchandise). 
+
+The dataset provides a granular look at the customer journey, including:
+- **User Personas**: Geographic location, device type (Mobile/Desktop/Tablet), and long-term value (LTV).
+- **Behavioral Events**: Tracking the path from `session_start` → `view_item` → `add_to_cart` → `begin_checkout` → `purchase`.
+- **Product Intelligence**: Revenue performance and transaction volume across different marketing regions.
+
+By using this data, the dashboard can simulate how a "Senior Product Analyst" would investigate growth bottlenecks and conversion drop-offs.
+
 ## ✨ What's Inside?
 
 - **🤖 AI Data Intelligence**: A dedicated assistant powered by **Gemini 2.0 Flash**. It reads the live context of your filters and answers questions like *"Why did our conversion drop on mobile last week?"*
-- **🌙 Midnight SaaS UI**: A premium dark-theme interface designed with a modern "Midnight" aesthetic (inspired by top-tier tools like Stripe and Mixpanel).
 - **📈 Growth Analytics**: Segmented views for **Acquisition** (where users come from), **Behavior** (what they do), and **Revenue** (how much they spend).
 - **🔮 Predictive Forecasting**: Uses the **Prophet** engine to project user activity trends 30 days into the future.
 - **🎯 Smart Funnels**: A clear visualization of the checkout process to pinpoint exactly where users are dropping off.
