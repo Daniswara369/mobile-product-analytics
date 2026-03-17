@@ -1,6 +1,6 @@
 # ⚡ Product Analytics Dashboard
 
-This is a modern, high-fidelity analytics dashboard built to bridge the gap between static charts and automated AI insights. Instead of just looking at numbers, you can actually **talk** to this dashboard to understand why your metrics are moving. I built this using the **Google Merchandise Store** dataset to simulate a real-world e-commerce environment.
+This is a analytics dashboard built to bridge the gap between static charts and automated AI insights. Instead of just looking at numbers, you can actually **talk** to this dashboard to understand why your metrics are moving. I built this using the **Google Merchandise Store** dataset to simulate a real-world e-commerce environment.
 
 🌍 **Live Demo:** [https://daniswara369-mobile-product-analytics-app-9eogj4.streamlit.app/]
 
