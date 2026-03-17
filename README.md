@@ -2,6 +2,17 @@
 
 This is a modern, high-fidelity analytics dashboard built to bridge the gap between static charts and automated AI insights. Instead of just looking at numbers, you can actually **talk** to this dashboard to understand why your metrics are moving. I built this using the **Google Merchandise Store** dataset to simulate a real-world e-commerce environment.
 
+🌍 **Live Demo:** [https://daniswara369-mobile-product-analytics-app-9eogj4.streamlit.app/]
+
+## 📊 Dashboard Preview
+
+### Overview Panel
+<img width="932" height="398" alt="image" src="https://github.com/user-attachments/assets/220a7150-300f-42a8-ab64-c5f086dced7d" />
+
+### AI Assistant Panel
+<img width="929" height="386" alt="image" src="https://github.com/user-attachments/assets/bbd9634f-cdf8-4125-83bf-30dc7bf4e99f" />
+
+
 ## 📊 The Data
 
 This project analyzes real-world e-commerce data from the **Google Merchandise Store** (a live web store that sells Google-branded merchandise). 
