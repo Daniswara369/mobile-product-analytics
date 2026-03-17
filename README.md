@@ -11,7 +11,6 @@ The dataset provides a granular look at the customer journey, including:
 - **Behavioral Events**: Tracking the path from `session_start` → `view_item` → `add_to_cart` → `begin_checkout` → `purchase`.
 - **Product Intelligence**: Revenue performance and transaction volume across different marketing regions.
 
-By using this data, the dashboard can simulate how a "Senior Product Analyst" would investigate growth bottlenecks and conversion drop-offs.
 
 ## ✨ What's Inside?
 
@@ -53,5 +52,4 @@ By using this data, the dashboard can simulate how a "Senior Product Analyst" wo
    streamlit run app.py
    ```
 
----
-*Built with ❤️ for my Data Analytics Portfolio.*
+
