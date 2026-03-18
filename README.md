@@ -32,7 +32,7 @@ The dataset provides a granular look at the customer journey, including:
 
 ## 🛠️ Tech Stack
 
-- **Frontend**: Streamlit (with custom CSS injection)
+- **Frontend**: Python (Streamlit)
 - **AI Engine**: Google Gemini API
 - **Forecasting**: Facebook Prophet
 - **Visuals**: Plotly (Interactive)
